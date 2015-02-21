@@ -9,7 +9,7 @@
   // EDITING STARTS HERE (you dont need to edit anything above this line)
 
   var db = false;
-  var remoteCouch = false;
+  var remoteCouch = 'http://nwhaley.iriscouch.com/todos';
 
   // We have to create a new todo document and enter it in the database
   function addTodo(text) {
